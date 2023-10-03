@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+body{
+    position: relative;
+    background-image: url(../image/pexels-francesco-ungaro-15108119.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-body{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .5);
+    padding:55px;
+    border-radius: 5px;
+    background: transparent;
+    width: 300px;
+    backdrop-filter: blur(5px);
+    --webkit-backdrop-filter:blur(5px);
+}
+.form-body h2{
+    color: #f1f1f1;
+    text-align: center;
+}
+input{
+    display: block;
+    padding: 5px;
+    margin: 8% 0;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+} 
+input:focus{
+ outline: none;
+}
+::placeholder{
+color: white;
+}
+.link{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.login-btn{
+    display: block;
+    background-color: chocolate;
+    border: none;
+    width: 70%;
+    padding: 8px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin:20px auto;
+    transition: all .5s;
+}
+.login-btn:hover{
+    box-shadow: 0 0 5px  chocolate,0 0 25px chocolate;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    background: #f1f1f1;
+    width: 55%;
+    margin: 5px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.bi{
+   display: flex;
+   align-items: center;
+   padding: 3px;
+}
+.span-spn{
+    margin-left:5px;
+}
+#scl{
+    text-align: center;
+}
+#scl p{
+    color: white;
+}
